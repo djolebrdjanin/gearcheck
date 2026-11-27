@@ -1,0 +1,4 @@
+server/server.js — one comment line: // The kitchen. Orders in, answers out. (Lesson 13 moves in here.)
+db/.gitkeep — a special empty filename, convention for "keep this room, furniture arrives later" 😄
+frontend/index.html — one comment line: <!-- The dining room. Guests arrive in Lesson 19. -->
+
