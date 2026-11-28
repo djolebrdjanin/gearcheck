@@ -2,7 +2,8 @@
 const http = require(`http`);
 
 const server = http.createServer((request, response) => {
-  response.end(`GearCheck kitchen: open!`);
+  console.log(`Request:`, request.method, request.url);
+  response.end(`GearCheck server running`);
 });
 
 server.listen(3000, () => {
